@@ -1,0 +1,299 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/out",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/app/list",
+			"style": {
+				"navigationBarTitleText": "项目中心",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/app/show",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/app/applyCode",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/app/codeShow",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/app/setPrice",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/app/joinApps",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/app/myCodes",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/app/createVoucher",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/app/voucherList",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/task/list",
+			"style": {
+				"navigationBarTitleText": "任务大厅",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/task/show",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/task/order_list",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/task/setRate",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/account/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/account/login_password",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/account/login",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/account/register",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/account/user_info",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/account/user_password",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/account/wallet",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/account/wallet_pay",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/account/wallet_withdraw",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/account/vip",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/address/list",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/address/create",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/address/edit",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/team/index",
+			"style": {
+				"navigationBarTitleText": "团队"
+			}
+		},
+		{
+			"path": "pages/team/list",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/article/list",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/article/show",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/product/index",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/product/list",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/product/show",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/order/checkout",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/order/pay",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/order/list",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/order/show",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "appname",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#333333",
+		//导航栏未选择颜色
+		"selectedColor": "#035bff",
+		//导航栏选择颜色
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+					"pagePath": "pages/index/index",
+					"text": "首页",
+					"iconPath": "/static/images/foot_icon_index.png",
+					"selectedIconPath": "/static/images/foot_icon_index_on.png"
+			},
+			{
+					"pagePath": "pages/app/list",
+					"text": "项目",
+					"iconPath": "/static/images/foot_icon_app.png",
+					"selectedIconPath": "/static/images/foot_icon_app_on.png"
+			},
+			{
+					"pagePath": "pages/task/list",
+					"text": "任务",
+					"iconPath": "/static/images/foot_icon_task.png",
+					"selectedIconPath": "/static/images/foot_icon_task_on.png"
+			},
+			{
+					"pagePath": "pages/product/index",
+					"text": "商城",
+					"iconPath": "/static/images/foot_icon_shop.png",
+					"selectedIconPath": "/static/images/foot_icon_shop_on.png"
+			},
+			{
+					"pagePath": "pages/team/index",
+					"text": "团队",
+					"iconPath": "/static/images/foot_icon_qun.png",
+					"selectedIconPath": "/static/images/foot_icon_qun_on.png"
+			},
+			{
+					"pagePath": "pages/account/index",
+					"text": "我的",
+					"iconPath": "/static/images/foot_icon_account.png",
+					"selectedIconPath": "/static/images/foot_icon_account_on.png"
+			}
+		]
+	}
+}
